@@ -27,9 +27,6 @@ for table in datas_table:
 for data in tables:
     print(data)
 
-
-
-
 sql = "INSERT INTO Restaurants(ID,Name,Address,Zip,Contact,Type,Date,Rating,Grade) VALUES('{}','{}','{}','{}','{}','{}','{}','{}','{}')".format(ID,Name,Address,Zip,Contact,Type,Date,Rating,Grade)
 
 try:
